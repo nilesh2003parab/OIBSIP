@@ -45,6 +45,10 @@ body{
     font-family: "Roboto" , sans-serif;
 }
 
+button {
+    margin-top: 15px;
+}
+
 nav{
     position: absolute;
     top: 0;
@@ -84,12 +88,12 @@ nav{
 
 
 .link:hover{
-    color: var(--primary-color);
+    color: var(--text-dark);
 }
 
 header{
     height: 100vh;
-    background-image: linear-gradient(rgba(74, 82, 89, 0.5),rgba(111, 114, 116, 0.5)),url("/Users/nileshnandkishorparab/Desktop/Oasis infobyte task/maharashtra.jpeg");
+    background-image: linear-gradient(rgba(74, 82, 89, 0.5),rgba(111, 114, 116, 0.5)),url("/OIBSIP/assets/mumbai.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,9 +137,9 @@ header .section_container{
     transition: 0.3s;
 }
 
-.header_content button:hover{
-    background-color: var(--primary-color-dark);
-
+button:hover{
+    background-color: var(--extra-light);
+    color: var(--text-dark);
 }
 
 .journey_container{
@@ -172,12 +176,13 @@ header .section_container{
 }
 
 .banner_container{
-    background-image: linear-gradient(rgba(32, 71, 103,.5),rgba(32, 71, 103,.5)),url("/Users/nileshnandkishorparab/Desktop/Oasis infobyte task/d90c45a4-71d3-4f7c-9374-503bc8a6c6ca.jpeg");
+    background-image: linear-gradient(rgba(32, 71, 103,.5),rgba(32, 71, 103,.5)),url("/OIBSIP/assets/gateway.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
-.banner_container .section_container{
+.banner_container_text {
     padding: 10rem 1rem;
     display:flex;
     justify-content: center;
@@ -201,7 +206,7 @@ header .section_container{
 
 
 
-.banner_content button{
+button{
     padding: .5rem 2rem;
     outline: none;
     border: 2px solid var(--secondary-color);
