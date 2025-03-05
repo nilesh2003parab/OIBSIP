@@ -1,0 +1,66 @@
+*{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#calcTemp{
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: brown;
+    box-shadow: rgba(0, 0,0, 0.12) 0px 3px, rgba(0, 0,0, 0.24)0px 1px 2px ;
+}
+
+label{
+    font-size: 30px;
+    line-height: 78px;
+
+}
+
+#temp{
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#sumit{
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: royalblue;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#sumit:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+#result{
+    font-size: 27px;
+}
+
+
+
+
+
